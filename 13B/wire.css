@@ -1,0 +1,122 @@
+.jumbotron {
+  background-image: url(bacthang.jpg);
+  background-size: cover;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+.pic {
+  height: 200px;
+  width: 18rem;
+  /* background-color: grey; */
+  /* border: 1px solid black; */
+  border: none;
+  margin-left: 1rem;
+}
+
+.pic img {
+  width: 18rem;
+  height: 200px;
+}
+
+.place {
+  display: block;
+  float: right;
+  clear: both;
+}
+
+header {
+  background-color: black;
+}
+.nav-text {
+  color: darkslategray;
+}
+body {
+  background-color: lightgoldenrodyellow;
+  background-image: url(background.jpeg);
+  background-size: cover;
+}
+h1 {
+  text-align: left;
+  color: lightsalmon;
+  text-shadow: 2px 2px 5px darkgreen;
+  font-size: 40px;
+  font-family: "Arial";
+}
+
+p {
+  text-align: left;
+  color: whitesmoke;
+}
+h2 {
+  text-align: left;
+  color: lightgoldenrodyellow;
+  text-shadow: 3px 3px 7px mediumblue;
+}
+
+h3 {
+  text-align: center;
+  color: darkturquoise;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+}
+body {
+  background-color: #ccc;
+}
+
+caption {
+  font-size: 48px;
+  color: darkgreen;
+}
+
+input {
+  width: 100%;
+}
+
+input[type="radio"] {
+  width: 10%;
+}
+
+label {
+  width: 30%;
+}
+
+textarea {
+  width: 100%;
+}
+
+#table-form {
+  border: none;
+  width: 100%;
+}
+
+#table-form td {
+  border: none;
+}
+
+.left-column {
+  width: 20%;
+}
+
+.right-column {
+  width: 40%;
+}
+caption {
+  font-size: 40px;
+}
+footer {
+  padding: 0px;
+  margin: 0px;
+  border-width: inherit;
+  border: 1px dotted black;
+  text-align: center;
+  color: darkslateblue;
+  background-color: lightgrey;
+}
+
+p.desti {
+  color: darkslategray;
+  text-align: justify;
+}

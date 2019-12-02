@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lyyti//NONSGML Lyyti//EN
+X-PUBLISHED-TTL:P1W
+BEGIN:VEVENT
+UID:2a9A82C59249eEd5F33670c2F84809abfB7D8A542749664DCC50f547a1@lyyti.fi
+DTSTART:20191126T070000Z
+SEQUENCE:0
+TRANSP:OPAQUE
+DTEND:20191126T100000Z
+LOCATION:Haaga-Helia’s Pasila campus\, Tapahtumatori\, Ratapihantie 13\, 
+ 00520 Helsinki
+SUMMARY: Matching & Networking Morning – ICT and Technology 
+CLASS:PUBLIC
+DESCRIPTION:    Confirmation of registration:\n    https://www.lyyti.fi/tic
+ ket/484662-1700633778
+X-ALT-DESC;FMTTYPE=text/html:    Confirmation of registration:<br />\n    <
+ a href=\"https://www.lyyti.fi/ticket/484662-1700633778\">https://www.lyyti
+ .fi/ticket/484662-1700633778</a>
+DTSTAMP:20191122T111434Z
+END:VEVENT
+END:VCALENDAR

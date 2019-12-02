@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="wire.css" />
+    <title>contact</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col col-sm-7"></div>
+        <div class="col col-sm-5">
+          <nav class="navbar">
+            <a class="nav-link nav-text" href="index.html">Home</a>
+            <a class="nav-link nav-text" href="about.html">About</a>
+            <a class="nav-link nav-text" href="desti.html">Destinations</a>
+            <a class="nav-link nav-text" href="contact.html">Contact</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="jumbotron"></div>
+    <br />
+    <div class="container-fluid">
+      <h4 style="text-align: center;">LET'S HAVE A CHAT</h4>
+      <br />
+      <div class="row">
+        <div class="col-sm-4"></div>
+
+        <div class="col-md-4" style="text-align: left; color:saddlebrown;">
+          <div id="after_submit"></div>
+          <form
+            id="contact_form"
+            action="#"
+            method="POST"
+            enctype="multipart/form-data"
+          >
+            <div class="row">
+              <label class="required" for="name">Your name:</label><br />
+              <input
+                id="name"
+                class="input"
+                name="name"
+                type="text"
+                value=""
+                size="30"
+              /><br />
+              <span id="name_validation" class="error_message"></span>
+            </div>
+            <div class="row">
+              <label class="required" for="email">Your email:</label><br />
+              <input
+                id="email"
+                class="input"
+                name="email"
+                type="text"
+                value=""
+                size="30"
+              /><br />
+              <span id="email_validation" class="error_message"></span>
+            </div>
+            <div class="row">
+              <label class="required" for="message">Your message:</label><br />
+              <textarea
+                id="message"
+                class="input"
+                name="message"
+                rows="7"
+                cols="30"
+              ></textarea
+              ><br />
+              <span id="message_validation" class="error_message"></span>
+            </div>
+            <br />
+            <br />
+
+            <input id="submit_button" type="submit" value="Send email" />
+          </form>
+          <br />
+        </div>
+
+        <div class="col-md-4 .offset-md-4">
+          <a href="#">
+            <img
+              src="me.jpg"
+              alt=""
+              style="width: auto;
+              height: 25vw;
+              width: 25vw;
+              float: right;
+              object-fit: cover;"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+    <br />
+    <br />
+
+    <footer>
+      Copyright@NguyenThuy
+    </footer>
+  </body>
+</html>
